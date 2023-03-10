@@ -7,14 +7,6 @@
 
 Console.Clear();
 
-Console.WriteLine("InputNumber");
-int[] Sum = Convert.ToInt32(Console.ReadLine());
-
-Console.WriteLine("InputLendhtArray: ");
-Array.lenght;
-
-
-
 
 
 

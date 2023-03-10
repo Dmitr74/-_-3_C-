@@ -6,13 +6,3 @@
 Console.Clear();
 
 
-Console.Write("Введите число А :  ");
-double A = Convert.ToDouble(Console.ReadLine());
-Console.Write("Введите число B :  ");
-double B = Convert.ToDouble(Console.ReadLine());
-
-double result = Math.Pow(A, B);
-
-Console.Write($"Длина вашего числа: {result}");
-
-
