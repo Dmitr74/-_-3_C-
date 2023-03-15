@@ -10,13 +10,13 @@ Console.Clear();
 
 Console.WriteLine("Введите  число: ");
 string str = Console.ReadLine();
-int Digit = Math.Abs(Convert.ToInt32(str));
+int n = Math.Abs(Convert.ToInt32(str));
 
-int[] arrayPolindrome = {Digit};//new int[]
-int n = arrayPolindrome.Length;
+int[] arrayPolindrome = new int [n];  //new int[]
+//int n = arrayPolindrome.Length;
 
 
-for (int i = 0; i < n; i++)
+for (int i = 0; i < arrayPolindrome.Length; i++)
  {
     arrayPolindrome[i] = arrayPolindrome[i] + n; 
  

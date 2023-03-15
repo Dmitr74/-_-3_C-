@@ -5,4 +5,26 @@
 
 Console.Clear();
 
+int Power(int number, int degree) 
+ { 
+     int result = 1; 
+
+     for(int i = 1; i <= degree; i++) 
+     { 
+         result = result * number; 
+     } 
+     return result; 
+ } 
+
+Console.Write("Введите число А :  ");
+ int A = Convert.ToInt32(Console.ReadLine()); 
+ Console.Write("Введите число B :  "); 
+ int B = Convert.ToInt32(Console.ReadLine()); 
+
+ Console.Write($"Итого: {Power(A, B)}");
+
+
+
+
+ 
 
